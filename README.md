@@ -13,9 +13,17 @@ The folders ***snippets/***, ***utilites/keywords*** and ***utilites/keywords/co
 1. In the ***settings/*** folder are all settings;
 
 2. To the ***settings/keywords.txt*** file add keywords;
-
+```
+dollar
+buy dollar
+buy dollar online
+```
 3. To the ***settings/proxy.txt*** file add a proxy;
-
+```
+74.53.15.140:3129
+213.171.70.243:8080
+108.161.130.154:3128
+```
 4. TO the ***settings/se.txt*** file set the search engine URL with the domain zone, for example:
 ```
 google.ca
@@ -27,7 +35,9 @@ aol.com
 aol.co.uk
 ```
 5. In the ***settings/treads.txt*** file, set the number of threads;
-
+```
+3
+```
 6. In the ***settings/language.txt*** file, set the parsing language, for example:
 ```
 en
@@ -37,12 +47,17 @@ fr
 es
 ```
 7. In the ***settings/limit.txt*** file, set the maximum snippet length;
-  
-8. The script works in the browser. To run, open ***http://path_to_script/index.php***
+```
+3000
+```
 
-9. Do not close the browser until the end of the work.
+### Run Script
 
-10. The results with parsed snippets are saved in separate files with the key name in the ***snippets/*** folder
+1. The script works in the browser. To run, open ***http://path_to_script/index.php***
+
+2. Do not close the browser until the end of the work.
+
+3. The results with parsed snippets are saved in separate files with the key name in the ***snippets/*** folder
 
 Have Fun! 
 
